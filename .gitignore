@@ -1,16 +1,14 @@
-# Compiled class file
+# Carpeta de compilación
+/build/
+/dist/
+
+# Archivos de NetBeans privados
+/nbproject/private/
+
+# Clases compiladas
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Archivos empaquetados
 *.jar
 *.war
 *.nar
@@ -19,6 +17,9 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Archivos de log
+*.log
+
+# Manifest (se genera en build/dist, opcional si no quieres subirlo)
+manifest.mf
+
